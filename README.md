@@ -21,7 +21,6 @@ energy-consumption-prediction/
 		├── model_performance.png
 		├── actual_vs_predicted.png
 
-'
 ```
 
 ## Technologies & Dependencies
