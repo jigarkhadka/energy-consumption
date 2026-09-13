@@ -13,7 +13,15 @@ energy-consumption-prediction/
 │
 ├── README.md
 ├── energy-consumption-prediction.ipynb
-└── .gitignore
+├── .gitignore
+├─── assets
+		├── hvac_and_lighting_bar.png
+		├── correlation_bar.png
+		├── correlation_heatmap.png
+		├── model_performance.png
+		├── actual_vs_predicted.png
+
+'
 ```
 
 ## Technologies & Dependencies
@@ -79,6 +87,21 @@ The exploratory analysis examines:
 - HVAC and lighting usage showed noticeable effects on energy consumption.
 - The observations cover January and February.
 
+### Visual Insights
+`Energy Consumption In Comparision with **HVACUsage** and **LightingUsage**`
+![HVAC AND LIGHTINGUSAGE](assets/hvac_and_lighting_bar.png)<br>
+
+`Feature Correlation Bar Chart`
+![Feature Correlation](assets/correlation_bar.png)<br>
+
+`Correlation HeatMap`
+![correlation heatmap](assets/correlation_heatmap.png)<br>
+
+`Model Performance Comparision Chart`
+![model comparision](assets/model_performance.png)<br>
+
+`Actual Vs Predicted Scatter Plot`
+![actual vs predicted](assets/actual_vs_predicted.png)<br>
 ## Feature Engineering
 
 Three additional features were created:
